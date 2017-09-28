@@ -1,0 +1,10 @@
+---
+version: '2'
+services:
+    myhaskell:
+        build:
+            context: .
+        volumes:
+            - ./files:/root/Documents/files
+...
+
